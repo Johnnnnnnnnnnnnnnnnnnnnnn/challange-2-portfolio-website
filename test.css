@@ -1,0 +1,171 @@
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(58, 55, 55);
+}
+
+.test {
+    display: flex;
+    align-items: center;
+}
+#profile {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.test h1 {
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+header ul li {
+    padding: 10px;
+    margin: 10px
+}
+
+header ul li a {
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: double;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* SUBHEADER */
+.subheader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+}
+
+.subheadercontent {
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+/* MAIN */
+.mainbody {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.mainheader {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 100px;
+    margin: 10px;
+    font-size: larger;
+}
+
+.mainheader h2 {
+    padding: 10px;
+    margin: 10px;
+    width: 60px;
+}
+
+.mainborder {
+    border-style: solid;
+    height: 150px;
+}
+
+.maincontent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contactmelinks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.contactmelinks li {
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+}
+
+.contactmelinks li a {
+    color: black;
+    font-weight: bolder;
+
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainimgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+#mainimg {
+    width: 500px;
+}
+
+#mainimg:hover {
+    background-color: aqua;
+
+}
+
+#subimg {
+    width: 200px;
+    padding: 10px
+}
+
+#subimg:hover {
+    background-color: aqua;
+}
+
+.conflict {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
